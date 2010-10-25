@@ -17,6 +17,9 @@ rescue LoadError
   # Not available
 end
 
+# require utf-8 hack
+require File.join(File.dirname(__FILE__), '../lib/mysql_utf8.rb')
+
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence those specified here
   

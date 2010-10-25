@@ -727,7 +727,6 @@ ko:
   label_search_titles_only: 제목에서만 찾기
   label_user_mail_option_all: "내가 속한 프로젝트로들부터 모든 메일 받기"
   label_user_mail_option_selected: "선택한 프로젝트들로부터 모든 메일 받기.."
-  label_user_mail_option_none: "내가 속하거나 감시 중인 사항에 대해서만"
   label_user_mail_no_self_notified: "내가 만든 변경사항들에 대해서는 알림메일을 받지 않습니다."
   label_registration_activation_by_email: 메일로 계정을 활성화하기
   label_registration_automatic_activation: 자동 계정 활성화
@@ -969,8 +968,6 @@ ko:
   field_time_entries: 기록된 시간
   project_module_gantt: Gantt 챠트
   project_module_calendar: 달력
-  field_member_of_group: Member of Group
-  field_assigned_to_role: Member of Role
   button_edit_associated_wikipage: "Edit associated Wiki page: {{page_title}}"
   text_are_you_sure_with_children: Delete issue and all child issues?
   field_text: Text field
@@ -978,3 +975,7 @@ ko:
   setting_default_notification_option: Default notification option
   label_user_mail_option_only_my_events: Only for things I watch or I'm involved in
   label_user_mail_option_only_assigned: Only for things I am assigned to
+  label_user_mail_option_none: No events
+  field_member_of_group: Assignee's group
+  field_assigned_to_role: Assignee's role
+  notice_not_authorized_archived_project: The project you're trying to access has been archived.

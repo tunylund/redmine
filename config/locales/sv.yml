@@ -768,7 +768,6 @@ sv:
   label_search_titles_only: Sök endast i titlar
   label_user_mail_option_all: "För alla händelser i mina projekt"
   label_user_mail_option_selected: "För alla händelser i markerade projekt..."
-  label_user_mail_option_none: "Endast för saker jag bevakar eller är involverad i"
   label_user_mail_no_self_notified: "Jag vill inte bli underrättad om ändringar som jag har gjort"
   label_registration_activation_by_email: kontoaktivering med mail
   label_registration_manual_activation: manuell kontoaktivering
@@ -958,8 +957,6 @@ sv:
   enumeration_doc_categories: Dokumentkategorier
   enumeration_activities: Aktiviteter (tidsuppföljning)
   enumeration_system_activity: Systemaktivitet
-  field_member_of_group: Member of Group
-  field_assigned_to_role: Member of Role
   button_edit_associated_wikipage: "Edit associated Wiki page: {{page_title}}"
   text_are_you_sure_with_children: Delete issue and all child issues?
   field_text: Text field
@@ -967,3 +964,7 @@ sv:
   setting_default_notification_option: Default notification option
   label_user_mail_option_only_my_events: Only for things I watch or I'm involved in
   label_user_mail_option_only_assigned: Only for things I am assigned to
+  label_user_mail_option_none: No events
+  field_member_of_group: Assignee's group
+  field_assigned_to_role: Assignee's role
+  notice_not_authorized_archived_project: The project you're trying to access has been archived.

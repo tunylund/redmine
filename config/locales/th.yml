@@ -585,7 +585,6 @@ th:
   label_search_titles_only: ค้นหาจากชื่อเรื่องเท่านั้น
   label_user_mail_option_all: "ทุกๆ เหตุการณ์ในโครงการของฉัน"
   label_user_mail_option_selected: "ทุกๆ เหตุการณ์ในโครงการที่เลือก..."
-  label_user_mail_option_none: "เฉพาะสิ่งที่ฉันเลือกหรือมีส่วนเกี่ยวข้อง"
   label_user_mail_no_self_notified: "ฉันไม่ต้องการได้รับการแจ้งเตือนในสิ่งที่ฉันทำเอง"
   label_registration_activation_by_email: เปิดบัญชีผ่านอีเมล์
   label_registration_manual_activation: อนุมัติโดยผู้บริหารจัดการ
@@ -910,8 +909,6 @@ th:
   field_time_entries: Log time
   project_module_gantt: Gantt
   project_module_calendar: Calendar
-  field_member_of_group: Member of Group
-  field_assigned_to_role: Member of Role
   button_edit_associated_wikipage: "Edit associated Wiki page: {{page_title}}"
   text_are_you_sure_with_children: Delete issue and all child issues?
   field_text: Text field
@@ -919,3 +916,7 @@ th:
   setting_default_notification_option: Default notification option
   label_user_mail_option_only_my_events: Only for things I watch or I'm involved in
   label_user_mail_option_only_assigned: Only for things I am assigned to
+  label_user_mail_option_none: No events
+  field_member_of_group: Assignee's group
+  field_assigned_to_role: Assignee's role
+  notice_not_authorized_archived_project: The project you're trying to access has been archived.

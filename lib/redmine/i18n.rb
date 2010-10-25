@@ -37,7 +37,12 @@ module Redmine
 
     def format_date(date)
       return nil unless date
-      Setting.date_format.blank? ? ::I18n.l(date.to_date, :count => date.strftime('%d')) : date.strftime(Setting.date_format)
+      date.strftime('%d.%m.%Y')
+#      if (Setting.date_format.blank?)
+#        ::I18n.l(date.to_date, :count => date.strftime('%d'))
+#      else
+#        date.strftime(Setting.date_format)
+#      end
     end
     
     def format_time(time, include_date = true)
@@ -45,8 +50,12 @@ module Redmine
       time = time.to_time if time.is_a?(String)
       zone = User.current.time_zone
       local = zone ? time.in_time_zone(zone) : (time.utc? ? time.localtime : time)
-      Setting.time_format.blank? ? ::I18n.l(local, :count => local.strftime('%d'), :format => (include_date ? :default : :time)) : 
-                                   ((include_date ? "#{format_date(time)} " : "") + "#{local.strftime(Setting.time_format)}")
+      ((include_date ? "#{format_date(time)} " : "") + "#{local.strftime('%H:%M')}")
+#      if (Setting.time_format.blank?)
+#        ::I18n.l(local, :count => local.strftime('%d'), :format => (include_date ? :default : :time))
+#      else
+#        ((include_date ? "#{format_date(time)} " : "") + "#{local.strftime(Setting.time_format)}")
+#      end
     end
 
     def day_name(day)
